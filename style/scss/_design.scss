@@ -1,8 +1,14 @@
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
 // FONT
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+$font: 'Montserrat', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+$font-title: 'Playfair Display', serif;
+
 // COLORS
+
+$grey: #707070;
+$gold: #D1C2AC;
+$white: #FEFEFE;
+$black: #121212

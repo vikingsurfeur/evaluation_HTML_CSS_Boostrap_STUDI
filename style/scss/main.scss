@@ -1,9 +1,11 @@
 // IMPORT GENERAL STYLES
 
-@import 'design';
-@import 'placeholder';
-@import 'component';
-@import 'global';
+@use '_design' as *;
+@use '_placeholder' as *;
+@use '_component' as *;
+@use '_global' as *;
 
 // IMPORT HTML COMPONENT
+
+
 
