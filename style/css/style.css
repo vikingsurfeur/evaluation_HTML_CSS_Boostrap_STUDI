@@ -18,4 +18,53 @@ ul li a {
   text-decoration: none !important;
 }
 
+.header__hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  color: #FEFEFE;
+  background-image: url("../../img/association_ventoux_images_header_hero.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.header__hero__nav {
+  font-size: 1.5rem;
+}
+.header__hero__title {
+  font-family: "Playfair Display", serif;
+}
+.header__hero__title .title--hero {
+  font-size: 3.5rem;
+}
+@media screen and (min-width: 768px) {
+  .header__hero__title .title--hero {
+    font-size: 5rem;
+  }
+}
+.header__hero__title .subtitle--hero {
+  padding: 5rem 0;
+  font-size: 2.5rem;
+}
+@media screen and (min-width: 768px) {
+  .header__hero__title .subtitle--hero {
+    font-size: 4rem;
+  }
+}
+.header__hero__title .button--hero {
+  padding: 1.5rem 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+@media screen and (min-width: 768px) {
+  .header__hero__title .button--hero {
+    padding: 2rem 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
