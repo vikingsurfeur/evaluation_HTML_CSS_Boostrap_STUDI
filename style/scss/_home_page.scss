@@ -70,3 +70,34 @@
     }
 }
 
+.member {
+
+    &__title {
+        font-family: $font-title;
+        font-size: 2.5rem;
+        @media screen and(min-width: 768px){
+            font-size: 4rem;
+        }
+    }
+
+    &__content {
+        font-family: $font;
+
+        .card {
+            border: none;
+            box-shadow: 0 0 16px rgba($color: $black, $alpha: 0.5);
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .card-social {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+

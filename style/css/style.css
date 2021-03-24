@@ -82,4 +82,30 @@ ul li a {
   font-size: 1.5rem;
 }
 
+.member__title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+}
+@media screen and (min-width: 768px) {
+  .member__title {
+    font-size: 4rem;
+  }
+}
+.member__content {
+  font-family: "Montserrat", sans-serif;
+}
+.member__content .card {
+  border: none;
+  box-shadow: 0 0 16px rgba(18, 18, 18, 0.5);
+}
+.member__content .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.member__content .card-body .card-social {
+  display: flex;
+  justify-content: space-around;
+}
+
 /*# sourceMappingURL=style.css.map */
