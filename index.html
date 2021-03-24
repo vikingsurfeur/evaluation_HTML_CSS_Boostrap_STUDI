@@ -79,6 +79,7 @@
     </head>
     <!-- BODY -->
     <body class="body container-fluid p-0">
+        <!-- HEADER -->
         <header class="header__hero">
             <nav class="header__hero__nav navbar navbar-expand-md navbar-dark px-5">
                 <a class="navbar-brand" href="#">
@@ -122,10 +123,12 @@
             </section>
             <i class="fas fa-chevron-down fa-4x text-center"></i>
         </header>
-        <main class="main">
-            <section class="main__whoweare container">
-                <h3 class="main__whoweare__title">Qui sommes-nous?</h3>
-                <div class="main__whoweare__content row">
+        <!-- MAIN -->
+        <main class="main__whoweare">
+            <!-- SECTION QUI SOMMES NOUS -->
+            <section class="container">
+                <h3 class="main__whoweare__title text-center py-5">Qui sommes-nous?</h3>
+                <div class="main__whoweare__content row py-2 py-lg-5">
                     <div class="col-lg-6">
                         <img
                             src="./img/association_ventoux_images_qui_sommes_nous.jpg"
@@ -133,7 +136,7 @@
                             class="img-fluid"
                         />
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 pt-5 pt-lg-0 text-center text-lg-left">
                         <p>
                             Amoureux du mont Ventoux, passionnés de nature,
                             collègues de longues dates et photographes aguerris,
@@ -153,9 +156,10 @@
                     </div>
                 </div>
             </section>
+            <!-- SECTION MEMBER -->
             <section class="member">
-                <h3 class="member__content__title">Membres</h3>
-                <div class="member__content row m-0">
+                <h3 class="member__content__title text-center py-5">Membres</h3>
+                <div class="member__content row py-5 m-0">
                     <div class="col-lg-3">
                         <div class="card" style="width: 18rem">
                             <img src="..." class="card-img-top" alt="..." />
@@ -210,7 +214,8 @@
                     </div>
                 </div>
             </section>
-            <section class="gallery row m-0">
+            <!-- SECTION GALLERY -->
+            <section class="gallery row py-5 m-0">
                 <img
                     src="./img/association_ventoux_images_paysage.jpg"
                     alt="paysage du mont Ventoux dans la brume au levé du soleil"
@@ -228,6 +233,7 @@
                 />
             </section>
         </main>
+        <!-- FOOTER -->
         <footer class="footer">
             <div class="footer__content row m-0">
                 <div class="col-lg-4">

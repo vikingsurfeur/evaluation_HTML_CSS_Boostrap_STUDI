@@ -44,6 +44,7 @@
             padding: 1.5rem 4rem;
             font-family: $font;
             font-size: 1.2rem;
+            font-weight: bold;
             @media screen and(min-width: 768px){
                 padding: 2rem 5rem;
                 font-family: $font;
@@ -52,3 +53,20 @@
         }
     }
 }
+
+.main__whoweare {
+
+    &__title {
+        font-family: $font-title;
+        font-size: 2.5rem;
+        @media screen and(min-width: 768px){
+            font-size: 4rem;
+        }
+    }
+
+    &__content {
+        font-family: $font;
+        font-size: 1.5rem;
+    }
+}
+
