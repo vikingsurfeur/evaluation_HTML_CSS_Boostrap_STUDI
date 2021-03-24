@@ -1,0 +1,14 @@
+// GLOBAL
+
+ul {
+    padding: 0;
+    margin: 0;
+    li {
+        display: inline;
+        list-style-type: none;
+        a {
+            color: white;
+            text-decoration: none !important;
+        }
+    }
+}

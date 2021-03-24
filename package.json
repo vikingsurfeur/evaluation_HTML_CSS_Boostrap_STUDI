@@ -1,0 +1,24 @@
+{
+  "name": "evaluation_html_css_bootstrap",
+  "version": "1.0.0",
+  "description": "evaluation_HTML_CSS_Bootstrap",
+  "main": "./js/main.js",
+  "scripts": {
+    "sass": "sass --watch ./style/scss/main.scss:./style/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikingsurfeur/evaluation_HTML_CSS_Boostrap_STUDI.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Bootstrap"
+  ],
+  "author": "David Bouscarle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikingsurfeur/evaluation_HTML_CSS_Boostrap_STUDI/issues"
+  },
+  "homepage": "https://github.com/vikingsurfeur/evaluation_HTML_CSS_Boostrap_STUDI#readme"
+}
