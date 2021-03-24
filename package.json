@@ -1,7 +1,7 @@
 {
-  "name": "evaluation_html_css_bootstrap",
+  "name": "evaluation_html_css_bootstrap_code",
   "version": "1.0.0",
-  "description": "evaluation_HTML_CSS_Bootstrap",
+  "description": "Evaluation HTML CSS Bootstrap STUDI",
   "main": "./js/main.js",
   "scripts": {
     "sass": "sass --watch ./style/scss/main.scss:./style/css/style.css"
@@ -13,6 +13,7 @@
   "keywords": [
     "HTML",
     "CSS",
+    "SCSS",
     "Bootstrap"
   ],
   "author": "David Bouscarle",
