@@ -108,4 +108,25 @@ ul li a {
   justify-content: space-around;
 }
 
+.gallery__item {
+  position: relative;
+}
+.gallery__item__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #FEFEFE;
+}
+@media screen and (min-width: 768px) {
+  .gallery__item__title {
+    font-size: 4rem;
+  }
+}
+.gallery__item__img {
+  position: relative;
+}
+
 /*# sourceMappingURL=style.css.map */
