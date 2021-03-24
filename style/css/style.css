@@ -102,7 +102,7 @@ ul li a {
 }
 @media screen and (min-width: 768px) {
   .main__whoweare__title {
-    padding: 15rem 0 10rem;
+    padding: 15rem 0 15rem;
     font-size: 4rem;
   }
 }
@@ -190,7 +190,7 @@ ul li a {
 }
 
 .footer {
-  padding: 2rem 0;
+  padding: 2rem 2rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   color: #FEFEFE;

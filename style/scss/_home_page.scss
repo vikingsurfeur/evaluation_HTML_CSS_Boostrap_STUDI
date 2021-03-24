@@ -81,7 +81,7 @@
         font-family: $font-title;
         font-size: 2.5rem;
         @media screen and(min-width: 768px){
-            padding: 15rem 0 10rem;
+            padding: 15rem 0 15rem;
             font-size: 4rem;
         }
     }
@@ -152,6 +152,10 @@
         padding-top: 8rem;
     }
 
+    &__title {
+        
+    }
+
     &__item {
         position: relative;
 
@@ -177,7 +181,7 @@
 // FOOTER
 
 .footer {
-    padding: 2rem 0;
+    padding: 2rem 2rem;
     font-family: $font;
     font-size: 1.5rem;
     color: $white;
