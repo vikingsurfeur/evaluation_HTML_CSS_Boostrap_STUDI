@@ -238,4 +238,68 @@ a {
   }
 }
 
+.header {
+  box-shadow: 0 0 10px #D1C2AC;
+}
+.header__nav {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #121212;
+}
+
+.main__evenement {
+  text-align: center;
+}
+.main__evenement__title {
+  padding: 8rem 0 8rem;
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem;
+}
+@media screen and (min-width: 768px) {
+  .main__evenement__title {
+    padding: 15rem 0 15rem;
+    font-size: 5rem;
+  }
+}
+.main__evenement__expo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.main__evenement__expo__description {
+  padding-top: 5rem;
+}
+.main__selling__title {
+  padding: 2rem 0 8rem;
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .main__selling__title {
+    padding: 0 0 15rem;
+    font-size: 5rem;
+  }
+}
+.main__selling__content {
+  font-family: "Montserrat", sans-serif;
+}
+.main__selling__content .content--title {
+  padding-top: 2rem;
+  font-size: 2.5rem;
+}
+@media screen and (min-width: 992px) {
+  .main__selling__content .content--title {
+    padding-top: 0;
+    font-size: 3rem;
+  }
+}
+.main__selling__content .content--description {
+  padding: 3rem 0;
+  font-size: 1.5rem;
+}
+.main__selling__content .button--selling {
+  padding: 1.5rem 4rem;
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
