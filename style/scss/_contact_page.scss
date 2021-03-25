@@ -1,0 +1,30 @@
+// IMPORT PARTIALS
+
+@use '_design' as *;
+@use '_placeholder' as *;
+@use '_component' as *;
+@use '_global' as *;
+
+// BODY
+
+.body__contact {
+    min-height: 100vh;
+}
+
+// MAIN
+
+.main__contact {
+
+    &__title {
+        padding: 8rem 0 8rem;
+        font-family: $font-title;
+        font-size: 3.5rem;
+        @media screen and (min-width: 768px) {
+            padding: 8rem 0 15rem;
+            font-size: 5rem;
+        }
+    
+    }
+
+
+}
