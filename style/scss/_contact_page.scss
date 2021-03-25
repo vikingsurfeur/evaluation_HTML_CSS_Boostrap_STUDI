@@ -15,7 +15,6 @@
 // MAIN
 
 .main__contact {
-
     &__title {
         padding: 8rem 0 8rem;
         font-family: $font-title;
@@ -24,7 +23,6 @@
             padding: 8rem 0 15rem;
             font-size: 5rem;
         }
-    
     }
 
     &__content {
@@ -33,7 +31,7 @@
         &__details {
             padding-bottom: 5rem;
             @media screen and (min-width: 992px) {
-                padding-bottom: 0; 
+                padding-bottom: 0;
             }
 
             .details--item {
@@ -55,7 +53,7 @@
             padding-bottom: 5rem;
             font-size: 1.5rem;
             @media screen and (min-width: 992px) {
-                padding-bottom: 0; 
+                padding-bottom: 0;
             }
 
             .form-group {
@@ -74,13 +72,26 @@
 }
 
 // FOOTER
- .footer {
-     position: relative;
-     @media screen and (min-width: 992px) {
+.footer__contact {
+    position: relative;
+    padding: 2rem 2rem;
+    font-family: $font;
+    font-size: 1.5rem;
+    color: $white;
+    background-color: $grey;
+    @media screen and (min-width: 992px) {
         position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
     }
- }
 
+    .follow--link {
+        color: $white;
+        transition: color 250ms ease-in;
+    }
+
+    .follow--link:hover {
+        color: $gold;
+    }
+}

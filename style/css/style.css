@@ -380,16 +380,28 @@ a {
   padding: 1.25rem 2.5rem;
 }
 
-.footer {
+.footer__contact {
   position: relative;
+  padding: 2rem 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #FEFEFE;
+  background-color: #707070;
 }
 @media screen and (min-width: 992px) {
-  .footer {
+  .footer__contact {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
   }
+}
+.footer__contact .follow--link {
+  color: #FEFEFE;
+  transition: color 250ms ease-in;
+}
+.footer__contact .follow--link:hover {
+  color: #D1C2AC;
 }
 
 /*# sourceMappingURL=style.css.map */
