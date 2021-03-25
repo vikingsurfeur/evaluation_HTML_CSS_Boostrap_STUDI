@@ -52,6 +52,18 @@
 
         &__form {
             font-size: 1.5rem;
+
+            .form-group {
+                margin-bottom: 2.5rem;
+            }
+
+            .textarea--form {
+                resize: none;
+            }
+
+            .button--form {
+                padding: 1.25rem 2.5rem;
+            }
         }
     }
 }

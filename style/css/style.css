@@ -363,5 +363,14 @@ a {
 .main__contact__content__form {
   font-size: 1.5rem;
 }
+.main__contact__content__form .form-group {
+  margin-bottom: 2.5rem;
+}
+.main__contact__content__form .textarea--form {
+  resize: none;
+}
+.main__contact__content__form .button--form {
+  padding: 1.25rem 2.5rem;
+}
 
 /*# sourceMappingURL=style.css.map */
