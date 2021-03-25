@@ -1,0 +1,22 @@
+@use '_design' as *;
+
+// DIVIDER
+
+.divider {
+    max-width: 60vw;
+    height: 2px;
+    margin: 5rem auto;
+    background-color: $gold;
+    @media screen and (min-width: 992px) {
+        margin: 20rem auto;
+    }
+}
+
+// SPACER
+
+.spacer {
+    margin: 10rem 0;
+    @media screen and (min-width: 992px) {
+        margin: 20rem 0;
+    }
+}

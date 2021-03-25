@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
+.divider {
+  max-width: 60vw;
+  height: 2px;
+  margin: 5rem auto;
+  background-color: #D1C2AC;
+}
+@media screen and (min-width: 992px) {
+  .divider {
+    margin: 20rem auto;
+  }
+}
+
+.spacer {
+  margin: 10rem 0;
+}
+@media screen and (min-width: 992px) {
+  .spacer {
+    margin: 20rem 0;
+  }
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -257,7 +278,7 @@ a {
 }
 @media screen and (min-width: 768px) {
   .main__evenement__title {
-    padding: 15rem 0 15rem;
+    padding: 8rem 0 15rem;
     font-size: 5rem;
   }
 }
@@ -274,7 +295,7 @@ a {
   font-size: 3.5rem;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .main__selling__title {
     padding: 0 0 15rem;
     font-size: 5rem;
