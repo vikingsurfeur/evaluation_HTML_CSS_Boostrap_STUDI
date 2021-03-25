@@ -325,6 +325,7 @@ a {
 
 .body__contact {
   min-height: 100vh;
+  position: relative;
 }
 
 .main__contact__title {
@@ -361,7 +362,13 @@ a {
   color: #D1C2AC;
 }
 .main__contact__content__form {
+  padding-bottom: 5rem;
   font-size: 1.5rem;
+}
+@media screen and (min-width: 992px) {
+  .main__contact__content__form {
+    padding-bottom: 0;
+  }
 }
 .main__contact__content__form .form-group {
   margin-bottom: 2.5rem;
@@ -371,6 +378,18 @@ a {
 }
 .main__contact__content__form .button--form {
   padding: 1.25rem 2.5rem;
+}
+
+.footer {
+  position: relative;
+}
+@media screen and (min-width: 992px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
