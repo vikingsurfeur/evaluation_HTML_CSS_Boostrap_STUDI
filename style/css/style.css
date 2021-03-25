@@ -338,5 +338,30 @@ a {
     font-size: 5rem;
   }
 }
+.main__contact__content {
+  font-family: "Montserrat", sans-serif;
+}
+.main__contact__content__details {
+  padding-bottom: 5rem;
+}
+@media screen and (min-width: 992px) {
+  .main__contact__content__details {
+    padding-bottom: 0;
+  }
+}
+.main__contact__content__details .details--item {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+.main__contact__content__details .details--item .details--link {
+  margin-left: 2rem;
+  transition: color 250ms ease-in;
+}
+.main__contact__content__details .details--item .details--link:hover {
+  color: #D1C2AC;
+}
+.main__contact__content__form {
+  font-size: 1.5rem;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -26,5 +26,32 @@
     
     }
 
+    &__content {
+        font-family: $font;
 
+        &__details {
+            padding-bottom: 5rem;
+            @media screen and (min-width: 992px) {
+                padding-bottom: 0; 
+            }
+
+            .details--item {
+                margin: 1.5rem 0;
+                font-size: 1.5rem;
+
+                .details--link {
+                    margin-left: 2rem;
+                    transition: color 250ms ease-in;
+                }
+
+                .details--link:hover {
+                    color: $gold;
+                }
+            }
+        }
+
+        &__form {
+            font-size: 1.5rem;
+        }
+    }
 }

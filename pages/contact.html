@@ -124,67 +124,74 @@
         <!-- MAIN -->
         <main class="main__contact">
             <h1 class="main__contact__title text-center">Contactez-nous</h1>
-            <div class="main__contact__content row">
+            <div class="main__contact__content row container mx-auto">
                 <div class="main__contact__content__details col-lg-6">
-                    <h2>Association Ventoux en Images</h2>
-                    <ul>
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
+                    <h2 class="details--title">Association Ventoux en Images</h2>
+                    <ul class="d-flex flex-column">
+                        <li class="details--item">
+                            <i class="fas fa-map-marker-alt fa-lg"></i>
                             <a
                                 href="https://goo.gl/maps/dUtA96ckMJdtd5Pf9"
                                 target="_blank"
+                                class="details--link"
                                 >72 Rue des Grandes Aires 84330 Caromb</a
                             >
                         </li>
-                        <li>
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:david.bouscarle@ventouxenimages.com"
+                        <li class="details--item">
+                            <i class="fas fa-envelope fa-lg"></i>
+                            <a 
+                                href="mailto:david.bouscarle@ventouxenimages.com"
+                                class="details--link"
                                 >eMail</a
                             >
                         </li>
-                        <li>
-                            <i class="fas fa-phone-alt"></i>
-                            <a href="tel:+330662435466">06 62 43 54 66</a>
+                        <li class="details--item">
+                            <i class="fas fa-phone-alt fa-lg"></i>
+                            <a 
+                                href="tel:+330662435466"
+                                class="details--link"
+                                >06 62 43 54 66</a>
                         </li>
-                        <li>
-                            <i class="fab fa-facebook-f"></i>
+                        <li class="details--item">
+                            <i class="fab fa-facebook-f fa-lg"></i>
                             <a
                                 href="https://www.facebook.com/ventouxenimages/"
                                 target="_blank"
+                                class="details--link"
                                 >Notre page Facebook</a
                             >
                         </li>
                     </ul>
                 </div>
-                <div class="main__contant__content__form col-lg-6">
+                <div class="main__contact__content__form col-lg-6">
                     <form 
                         action="contact.php"
                         method="POST"
                     >
                         <div class="form-group">
-                            <label for="username">Email address</label>
+                            <label for="username">Votre nom</label>
                             <input
                                 type="text"
-                                class="form-control"
+                                class="form-control form-control-lg"
                                 id="username"
                                 placeholder="Elon Musk"
                                 required
                             />
                         </div>
                         <div class="form-group">
-                            <label for="email">Email address</label>
+                            <label for="email">Votre eMail</label>
                             <input
                                 type="email"
-                                class="form-control"
+                                class="form-control form-control-lg"
                                 id="email"
                                 placeholder="elon.musk@yahoo.com"
                                 required
                             />
                         </div>
                         <div class="form-group">
-                            <label for="textarea">Example textarea</label>
+                            <label for="textarea">Votre message</label>
                             <textarea
-                                class="form-control"
+                                class="form-control form-control-lg"
                                 id="textarea"
                                 rows="5"
                                 placeholder="Votre message"
@@ -204,7 +211,7 @@
                         <button
                             name="button"
                             type="submit" 
-                            class="btn btn-outline-dark"
+                            class="btn btn-outline-dark btn-lg"
                         >
                             Envoyer
                         </button>
